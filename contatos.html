@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contatos - Cafeteria Lancelot</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #2c1b0e; /* marrom escuro */
+      color: #f5f1e9; /* bege claro para texto */
+    }
+
+    header {
+      background-color: #3e2f1c; /* marrom médio */
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+
+    header h1 {
+      font-size: 24px;
+      color: #d4af37; /* dourado */
+    }
+
+    nav a {
+      color: #f5f1e9;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    .container {
+      padding: 60px 30px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .container h2 {
+      text-align: center;
+      font-size: 36px;
+      color: #d4af37;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 2px #1a0e00;
+    }
+
+    .container p {
+      text-align: center;
+      font-size: 16px;
+      color: #d9cbb1;
+      margin-bottom: 40px;
+    }
+
+    .contact-info {
+      background-color: #3e2f1c;
+      padding: 30px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+
+    .contact-info h3 {
+      font-size: 24px;
+      color: #d4af37;
+      margin-bottom: 10px;
+    }
+
+    .contact-info p {
+      font-size: 16px;
+      color: #d9cbb1;
+    }
+
+    .contact-info .phone {
+      font-size: 18px;
+      color: #f5f1e9;
+      margin: 10px 0;
+    }
+
+    .contact-info .phone a {
+      color: #d4af37;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .contact-info .phone a:hover {
+      color: #f9d95e;
+    }
+
+    .instagram {
+      background-color: #3e2f1c;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: 40px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+
+    .instagram a {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #d4af37;
+      color: #2c1b0e;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    .instagram a:hover {
+      background-color: #f9d95e;
+    }
+
+    footer {
+      background-color: #3e2f1c;
+      text-align: center;
+      padding: 20px;
+      color: #b3a27a;
+      font-size: 14px;
+      margin-top: 40px;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cafeteria Lancelot</h1>
+    <nav>
+      <a href="inicio.html">Home</a>
+      <a href="cardapio.html">Cardápio</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Contatos</h2>
+    <p>Entre em contato para fazer seu pedido ou tirar dúvidas. Estamos prontos para servir o melhor café da cidade!</p>
+
+    <div class="contact-info">
+      <h3>Equipe de Atendimento</h3>
+      <p>Fale diretamente com nossos atendentes para um atendimento personalizado.</p>
+
+      <div class="phone">
+        <strong>Ana Paula (Atendente)</strong><br>
+        <a href="tel:+5511998765432">(11) 99876-5432</a>
+      </div>
+
+      <div class="phone">
+        <strong>Lucas Martins (Atendente)</strong><br>
+        <a href="tel:+5511987654321">(11) 98765-4321</a>
+      </div>
+
+      <div class="phone">
+        <strong>Cafeteria Lancelot - Suporte</strong><br>
+        <a href="tel:+5511912345678">(11) 91234-5678</a>
+      </div>
+    </div>
+
+    <div class="instagram">
+      <h3>Nos siga no Instagram</h3>
+      <p>Fique por dentro das novidades e promoções exclusivas.</p>
+      <a href="https://www.instagram.com/cafeterialancelot" target="_blank">Siga-nos no Instagram</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Cafeteria Lancelot - Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>

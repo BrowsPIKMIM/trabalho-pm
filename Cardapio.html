@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cardápio - Cafeteria Lancelot</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #3e2f24;
+      color: #fff;
+    }
+
+    header {
+      background-color: #2b1d14;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 24px;
+      color: #d4af37; /* dourado */
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    .catalogo {
+      padding: 60px 30px;
+    }
+
+    .catalogo h2 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: #d4af37;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: #5c4033;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .card-body h4 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .card-body p {
+      color: #d9c89f;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .card-body a {
+      background-color: #d4af37;
+      color: #000;
+      padding: 10px 16px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    footer {
+      background-color: #2b1d14;
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        width: 100%;
+        max-width: 350px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cafeteria Lancelot</h1>
+    <nav>
+      <a href="inicio.html">Home</a>
+      <a href="pedidos.html">Pedidos</a>
+      <a href="contato.html">Contato</a>
+      <a href="cadastro.html">Cadastrar</a>
+    </nav>
+  </header>
+
+  <section class="catalogo">
+    <h2>Cardápio Premium</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="./Captura de tela 2025-09-25 091131.png" alt="Café Espresso">
+        <div class="card-body">
+          <h4>Espresso Real</h4>
+          <p>Intenso e encorpado - R$ 8,00</p>
+          <a href="Carinho.html">Comprar</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./Captura de tela 2025-09-25 090339.png" alt="Cappuccino Lancelot">
+        <div class="card-body">
+          <h4>Cappuccino Lancelot</h4>
+          <p>Creme, canela e chocolate - R$ 12,00</p>
+          <a href="Carinho.html">Comprar</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../Captura de tela 2025-09-25 091415.png" alt="Croissant de Amêndoas">
+        <div class="card-body">
+          <h4>Croissant de Amêndoas</h4>
+          <p>Delicioso e crocante - R$ 10,00</p>
+          <a href="Carinho.html">Comprar</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./Captura de tela 2025-10-01 074304.png" alt="Mocha Chocolate">
+        <div class="card-body">
+          <h4>Mocha Chocolate</h4>
+          <p>Combinação perfeita - R$ 14,00</p>
+          <a href="Carinho.html">Comprar</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./Captura de tela 2025-10-01 074644.png" alt="Chá Gelado">
+        <div class="card-body">
+          <h4>Chá Gelado Refrescante</h4>
+          <p>Sabor leve e natural - R$ 7,00</p>
+          <a href="Carinho.html">Comprar</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./Captura de tela 2025-10-01 074109.png" alt="Bolo de Chocolate">
+        <div class="card-body">
+          <h4>Bolo de Chocolate</h4>
+          <p>Fatia generosa - R$ 15,00</p>
+          <a href="Carinho.html">Comprar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Cafeteria Lancelot - Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
